@@ -29,7 +29,7 @@ if authentication_status:
     # ---- READ EXCEL ----
 
         # Załadowanie danych
-    data = pd.read_csv('..\data_s&c4.csv')
+    data = pd.read_csv('data_s&c4.csv')
     data['Data'] = pd.to_datetime(data['Data'])  # Konwersja kolumny Data na typ daty
 
 
